@@ -1,0 +1,81 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+}
+
+.cantainer{
+	margin: auto;
+	height: 100vh;
+	width: 90%;
+}
+
+#banner{
+	height: 100vh;
+	background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(../image/123.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
+.parent{
+	display: flex;
+	justify-content: center;
+    align-items: center;
+	height: 100%;
+}	
+
+.name{
+	color: white;
+	text-align: center;
+}	
+
+.name h1{
+	font-size: 50px;
+}
+
+.button{
+    border: none;
+	padding: 10px 24px;
+	background-color: #FF4A17;
+	color: white;
+	border-radius: 6px;
+	font-size: 18px;
+	transition: 0.2s;
+	cursor: pointer;
+}
+
+.button:hover{
+    border: 2px solid white;
+	background: transparent;
+}	
+
+.icon{
+	display: flex;
+	justify-content: center;
+	padding: 30px;
+}
+.cricle{
+	border-radius: 50%;
+	border: 2px solid white;
+	height: 32px;
+	width: 32px;
+	margin-left:20px;
+	margin-top: 9px;
+	cursor: pointer;
+	
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}	
+
+.icon span{
+    padding-left: 10px;
+	padding-top: 12px;
+}
+
+.cricle:hover{
+    border: 2px solid red;
+}	
+	
+	
